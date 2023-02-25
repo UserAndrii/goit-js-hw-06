@@ -22,7 +22,7 @@ function inputValue() {
 function createBoxes(amount) {
   let size = 30;
 
-  for (let i = 1; i < amount; i += 1) {
+  for (let i = 1; i <= amount; i += 1) {
     const newEl = document.createElement('div');
     newEl.style.backgroundColor = getRandomHexColor();
     newEl.style.width = `${size}px`;
